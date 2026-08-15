@@ -1,28 +1,505 @@
 # 👋 Hi, I'm Ravindra
 
-### Senior .NET Developer | Application Architecture | Multi-Tenant SaaS | Azure
+### Senior .NET Developer | Application Architect | Multi-Tenant SaaS | B2B E-commerce | ERP Integration | Azure
 
-I'm a .NET developer with **11+ years of experience** building enterprise applications, B2B e-commerce platforms, integrations, and scalable SaaS solutions.
+I'm a **Senior .NET Developer with 11+ years of experience** building enterprise applications, B2B e-commerce platforms, multi-tenant SaaS solutions, ERP integrations, APIs, and cloud-based systems.
 
-I'm passionate about **software architecture, clean code, scalable systems, cloud technologies, and solving complex business problems with simple and maintainable solutions.**
+My experience covers both **SaaS application development and enterprise system integration**, with a strong focus on building scalable, maintainable, secure, and production-ready solutions.
+
+I have worked on integrating B2B e-commerce platforms with multiple ERP and business management systems, including **Sage, SAP, Microsoft Dynamics, Oracle, NetSuite, Epicor, QuickBooks, Fishbowl, and custom ERP systems**.
 
 ---
 
 ## 🚀 About Me
 
 * 🔭 Currently working on **Multi-Tenant B2B SaaS & E-commerce platforms**
-* 🌱 Currently learning and exploring **Application Architecture, Azure, AI integration, and scalable system design**
-* 👯 Looking to collaborate on **.NET, SaaS, Cloud, Architecture, and Open Source projects**
-* 🤔 Interested in **high-scale systems, performance optimization, distributed caching, and cloud architecture**
-* 💬 Ask me about **.NET, C#, ASP.NET Core, Clean Architecture, CQRS, SQL Server, Azure, SaaS, and Multi-Tenancy**
-* 🎯 Career goal: **Application Architect / Solution Architect**
-* ⚡ Fun fact: **I enjoy turning complex business requirements into simple, scalable software solutions.**
+* 🏗️ Designing and developing **scalable enterprise applications**
+* 🔗 Building **ERP ↔ B2B E-commerce integrations**
+* ☁️ Working with **Microsoft Azure and cloud-based applications**
+* 🏢 Experienced in **Multi-Tenant / Database-per-Tenant architecture**
+* 🧩 Applying **Clean Architecture, CQRS, SOLID, Repository and Unit of Work patterns**
+* 🔄 Building **data synchronization and integration processes**
+* 📊 Working with **large product, customer, pricing, inventory and order datasets**
+* 🤖 Exploring **AI-powered SaaS applications and Azure OpenAI**
+* 🌱 Continuously improving my **Application Architecture and Solution Architecture** skills
+* 👯 Looking to collaborate on **.NET, SaaS, Cloud, Architecture, ERP Integration and Open Source projects**
+* 💬 Ask me about **.NET, C#, Azure, SQL Server, B2B E-commerce, ERP Integration, SaaS and System Architecture**
+* ⚡ Fun fact: **I enjoy connecting complex enterprise systems and turning complicated business processes into reliable software solutions.**
 
 ---
 
-## 🧑‍💻 Technology Stack
+# 🏢 SaaS & B2B E-commerce Development
 
-### Backend
+A major part of my experience is designing and developing **B2B e-commerce and multi-tenant SaaS platforms**.
+
+Areas I've worked with include:
+
+### 🛒 B2B E-commerce
+
+* Product Catalog
+* Product Categories
+* Customers
+* Customer Groups
+* Customer-specific Pricing
+* Price Lists
+* Inventory / Stock
+* Warehouses
+* Orders
+* Order Lines
+* Payments
+* Invoices
+* Credit Notes
+* Returns
+* Promotions
+* Tax
+* Shipping
+* Payment Gateways
+* Storefront
+* Tenant Administration
+* Platform Administration
+
+### 🏢 Multi-Tenant SaaS
+
+* Multi-Tenant Architecture
+* Database-per-Tenant
+* Tenant Management
+* Tenant Provisioning
+* Tenant Configuration
+* Tenant Isolation
+* Tenant-specific Business Rules
+* Tenant-specific ERP Configuration
+* Tenant-specific Payment Configuration
+* Shared Infrastructure
+* Azure SQL Elastic Pool
+* Redis Caching
+* Background Processing
+* Scalability
+* Security
+* Performance
+
+---
+
+# 🏗️ Application Architecture
+
+My focus is not only on writing application code but also on designing **maintainable and scalable application architecture**.
+
+### Architecture & Design
+
+* Clean Architecture
+* SOLID Principles
+* CQRS
+* Vertical Slice Architecture
+* Repository Pattern
+* Unit of Work
+* Dependency Injection
+* Domain-Driven Design
+* Modular Monolith
+* Multi-Tenant Architecture
+* Enterprise Integration Architecture
+* REST API Architecture
+* Background Processing
+* Integration Patterns
+* Design Patterns
+
+### Typical Application Structure
+
+```text
+API
+ │
+ ▼
+Application
+ │
+ ├── Commands
+ ├── Queries
+ ├── Handlers
+ └── Business Use Cases
+ │
+ ▼
+Domain
+ │
+ ├── Entities
+ ├── Value Objects
+ ├── Domain Rules
+ └── Interfaces
+ │
+ ▼
+Infrastructure
+ │
+ ├── SQL Server
+ ├── Redis
+ ├── Blob Storage
+ ├── ERP Integrations
+ └── External Services
+ │
+ ▼
+Shared
+```
+
+---
+
+# 🔗 Enterprise ERP Integration
+
+One of my key areas of experience is **integrating B2B e-commerce platforms with ERP and business management systems**.
+
+I have worked with or integrated systems including:
+
+### 🟦 Sage
+
+* Sage 200
+* Sage 50
+* Sage integrations
+
+### 🟧 SAP
+
+* SAP Business One
+* SAP Business One HANA
+* SAP S/4HANA
+* SAP ECC
+
+### 🟦 Microsoft
+
+* Dynamics 365 Finance & Operations (F&O)
+
+### 🟪 Oracle
+
+* Oracle Fusion
+
+### 🟩 NetSuite
+
+* Oracle NetSuite
+
+### 🟨 Epicor
+
+* Epicor ERP
+
+### 🟩 QuickBooks
+
+* QuickBooks Desktop
+* QuickBooks Online
+* QuickBooks SDK / API
+
+### 🟦 Fishbowl
+
+* Fishbowl ERP
+
+### 🔧 Other Systems
+
+* Custom ERP systems
+* Legacy ERP systems
+* Proprietary business systems
+* Custom APIs
+* Database integrations
+* XML / file-based integrations
+
+---
+
+# 🔄 ERP ↔ B2B E-commerce Data Synchronization
+
+A typical integration flow involves **pulling master and transaction data from the ERP into the B2B platform** and **pushing e-commerce transactions back to the ERP**.
+
+## ERP → B2B E-commerce
+
+The integration layer generally pulls data from the ERP and synchronizes it with the B2B platform.
+
+```text
+                     ERP
+                      │
+          ┌───────────┼───────────┐
+          │           │           │
+          ▼           ▼           ▼
+       Product     Customer      Price
+          │           │           │
+          └───────────┼───────────┘
+                      │
+                      ▼
+              Integration Layer
+                      │
+                      ▼
+              B2B E-commerce
+```
+
+Typical data pulled from ERP:
+
+* Products
+* Product Categories
+* Customers
+* Customer Addresses
+* Customer Groups
+* Price Lists
+* Customer-specific Prices
+* Inventory / Stock
+* Warehouse Stock
+* Product Availability
+* Units of Measure
+* Tax Information
+* Other ERP master data
+
+---
+
+# 🛒 B2B E-commerce → ERP
+
+When a customer places an order through the B2B platform, transaction data is pushed back to the ERP.
+
+```text
+Customer
+   │
+   ▼
+B2B Storefront
+   │
+   ▼
+Order Placed
+   │
+   ▼
+Integration Layer
+   │
+   ├──────────────► Order
+   │
+   ├──────────────► Invoice
+   │
+   └──────────────► Payment
+                      │
+                      ▼
+                     ERP
+```
+
+Typical data pushed from the B2B platform to the ERP:
+
+* Sales Orders
+* Order Lines
+* Customer Information
+* Shipping Information
+* Billing Information
+* Payment Information
+* Invoice Information
+* Payment Transactions
+* Order Status
+* Shipping Information
+
+---
+
+# 🔄 End-to-End Integration Flow
+
+A typical B2B e-commerce and ERP integration can be represented as:
+
+```text
+                    ┌─────────────────────┐
+                    │         ERP         │
+                    │                     │
+                    │ Product             │
+                    │ Customer            │
+                    │ Price               │
+                    │ Stock               │
+                    │ Invoice             │
+                    └──────────┬──────────┘
+                               │
+                         Pull / Sync
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Integration Layer   │
+                    │                     │
+                    │ Mapping             │
+                    │ Transformation      │
+                    │ Validation          │
+                    │ Error Handling      │
+                    │ Retry               │
+                    │ Logging             │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │  B2B E-commerce     │
+                    │      Platform       │
+                    └──────────┬──────────┘
+                               │
+                          Order Placed
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Integration Layer   │
+                    └──────────┬──────────┘
+                               │
+                         Push / Sync
+                               │
+                ┌──────────────┼──────────────┐
+                ▼              ▼              ▼
+              Order         Invoice         Payment
+                │              │              │
+                └──────────────┼──────────────┘
+                               ▼
+                              ERP
+```
+
+---
+
+# 🧩 ERP Integration Challenges
+
+Enterprise ERP integration requires more than simply consuming APIs.
+
+I've worked with challenges such as:
+
+* Different ERP data models
+* Different API structures
+* ERP-specific business rules
+* Data mapping
+* Data transformation
+* Field mapping
+* Product mapping
+* Customer mapping
+* Price mapping
+* Warehouse mapping
+* Unit-of-measure mapping
+* Currency mapping
+* Tax mapping
+* Order mapping
+* Invoice mapping
+* Payment mapping
+* Date/time differences
+* Legacy systems
+* SDK limitations
+* API limitations
+* Authentication differences
+* Large data volumes
+* Duplicate records
+* Failed synchronization
+* Retry processing
+* Idempotency
+* Data validation
+* Error handling
+* Integration logging
+* Monitoring
+
+---
+
+# 🔌 Integration Technologies
+
+### APIs
+
+* REST APIs
+* SOAP APIs
+* ERP-specific APIs
+* OAuth
+* Token-based Authentication
+* Webhooks
+
+### SDKs
+
+* ERP SDKs
+* QuickBooks SDK
+* Sage SDK
+* Vendor-specific SDKs
+
+### Data Formats
+
+* JSON
+* XML
+* CSV
+* Flat Files
+* Database Integration
+
+### Integration Processing
+
+* Scheduled Jobs
+* Background Services
+* Incremental Synchronization
+* Full Synchronization
+* Retry Mechanisms
+* Error Handling
+* Idempotent Processing
+* Data Validation
+* Data Transformation
+* Mapping
+
+---
+
+# 📊 Large Data & Performance
+
+B2B e-commerce and ERP integrations can involve large amounts of business data.
+
+Areas I focus on:
+
+* Large product catalogs
+* Large customer datasets
+* Large pricing datasets
+* Inventory synchronization
+* Bulk processing
+* SQL query optimization
+* Database indexing
+* Efficient pagination
+* Batch processing
+* Background processing
+* Redis caching
+* API optimization
+* Database performance
+* Azure scalability
+* Monitoring
+
+---
+
+# ☁️ Azure & Cloud
+
+I'm experienced in designing and deploying applications using Microsoft Azure.
+
+### Azure Technologies
+
+* Azure App Service
+* Azure SQL
+* Azure SQL Elastic Pool
+* Azure Blob Storage
+* Azure Redis
+* Azure Front Door
+* Azure DevOps
+* Application Insights
+* Azure OpenAI
+* CI/CD Pipelines
+* Release Pipelines
+* Cloud Monitoring
+
+### Example Architecture
+
+```text
+                       Azure Front Door
+                              │
+                              ▼
+                       Azure App Service
+                              │
+                              ▼
+                         .NET API
+                              │
+               ┌──────────────┼──────────────┐
+               │              │              │
+               ▼              ▼              ▼
+           Azure SQL        Redis          Blob
+               │
+               ▼
+       Tenant Databases
+               │
+               ▼
+        ERP Integrations
+```
+
+---
+
+# 🤖 AI & Modern SaaS
+
+I'm exploring how AI can improve modern SaaS and B2B e-commerce platforms.
+
+Areas of interest:
+
+* Azure OpenAI
+* AI-powered SaaS features
+* AI Theme Builder
+* AI-generated marketing content
+* AI-powered recommendations
+* Automated social media content
+* Intelligent business workflows
+* AI-assisted development
+
+---
+
+# 🛠️ Technology Stack
+
+## Backend
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge\&logo=csharp\&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge\&logo=dotnet\&logoColor=white)
@@ -33,57 +510,28 @@ I'm passionate about **software architecture, clean code, scalable systems, clou
 * ASP.NET Core
 * Web API
 * REST APIs
-* Background Services
 * CQRS
-* SOLID Principles
-* Design Patterns
-
-### Architecture
-
-* Clean Architecture
-* Domain-Driven Design
-* CQRS
-* Vertical Slice Architecture
-* Repository Pattern
-* Unit of Work
+* SOLID
 * Dependency Injection
-* Modular Monolith
-* Multi-Tenant Architecture
-* API Design
-* Enterprise Application Architecture
+* Background Services
+* Integration Services
 
-### Database
+## Database
 
-![Microsoft SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge\&logo=microsoftsqlserver\&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge\&logo=microsoftsqlserver\&logoColor=white)
 
 * Microsoft SQL Server
 * Azure SQL
-* Database-per-Tenant
-* Query Optimization
-* Indexing
-* Stored Procedures
-* Transactions
-* Bulk Data Processing
-* Database Performance Optimization
-* DACPAC / SQL Database Projects
-
-### Cloud & Azure
-
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge\&logo=microsoftazure\&logoColor=white)
-
-* Azure App Service
-* Azure SQL
 * Azure SQL Elastic Pool
-* Azure Blob Storage
-* Azure Redis
-* Azure Front Door
-* Azure DevOps
-* CI/CD
-* Application Insights
-* Azure OpenAI
-* Cloud Architecture
+* Database-per-Tenant
+* Stored Procedures
+* Indexing
+* Query Optimization
+* Bulk Processing
+* SQL Database Projects
+* DACPAC
 
-### Frontend
+## Frontend
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
@@ -92,238 +540,76 @@ I'm passionate about **software architecture, clean code, scalable systems, clou
 * Next.js
 * React
 * TypeScript
-* REST API Integration
-* Responsive UI
+* B2B Storefronts
 * Admin Portals
-* E-commerce Storefronts
+* E-commerce Applications
 
-### DevOps & Tools
-
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge\&logo=azuredevops\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
+## DevOps
 
 * Git
 * GitHub
 * Azure DevOps
-* CI/CD Pipelines
+* CI/CD
+* Release Pipelines
 * Docker
 * Docker Compose
-* Release Management
 * Automated Deployment
 * Production Readiness
+* Application Monitoring
 
 ---
 
-# 🏗️ Architecture & Engineering
+# 🔐 Security
 
-My primary focus is building **maintainable, scalable and production-ready enterprise applications**.
+Areas of focus:
 
-### Typical Architecture
+* Authentication
+* Authorization
+* Role-Based Access Control
+* Tenant Isolation
+* Secure API Design
+* Input Validation
+* Secrets Management
+* Secure Configuration
+* Auditing
+* Application Logging
+
+---
+
+# 📚 Current Learning & Career Goal
+
+My long-term goal is to grow into a strong **Application Architect / Solution Architect** who can work across:
 
 ```text
-                    ┌─────────────────────┐
-                    │      Clients        │
-                    │ Web / Mobile / API  │
-                    └──────────┬──────────┘
+                    ┌──────────────────────┐
+                    │  Business Processes  │
+                    └──────────┬───────────┘
                                │
                                ▼
-                    ┌─────────────────────┐
-                    │    API / Gateway    │
-                    └──────────┬──────────┘
+                    ┌──────────────────────┐
+                    │ Application Design   │
+                    └──────────┬───────────┘
                                │
                                ▼
-                    ┌─────────────────────┐
-                    │     Application     │
-                    │  CQRS / Use Cases   │
-                    └──────────┬──────────┘
+                    ┌──────────────────────┐
+                    │ SaaS Architecture    │
+                    └──────────┬───────────┘
                                │
                                ▼
-                    ┌─────────────────────┐
-                    │       Domain        │
-                    │ Business Rules      │
-                    └──────────┬──────────┘
+                    ┌──────────────────────┐
+                    │ ERP Integration      │
+                    └──────────┬───────────┘
                                │
                                ▼
-                    ┌─────────────────────┐
-                    │   Infrastructure    │
-                    │ SQL / Redis / Blob   │
-                    └─────────────────────┘
+                    ┌──────────────────────┐
+                    │ Cloud Architecture   │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │ Scalability & Security│
+                    └──────────────────────┘
 ```
-
----
-
-# 🏢 Multi-Tenant SaaS
-
-I'm particularly interested in **multi-tenant SaaS architecture**.
-
-A typical database-per-tenant architecture:
-
-```text
-                    ┌───────────────────┐
-                    │   Platform DB     │
-                    │ Tenant Management │
-                    └─────────┬─────────┘
-                              │
-              ┌───────────────┼───────────────┐
-              │               │               │
-              ▼               ▼               ▼
-        ┌──────────┐    ┌──────────┐    ┌──────────┐
-        │ Tenant A │    │ Tenant B │    │ Tenant C │
-        │ Database │    │ Database │    │ Database │
-        └──────────┘    └──────────┘    └──────────┘
-```
-
-Areas of interest:
-
-* Tenant isolation
-* Database-per-tenant
-* Tenant resolution
-* Tenant provisioning
-* Database provisioning
-* Azure SQL Elastic Pool
-* Shared Redis
-* Shared infrastructure
-* Tenant-level configuration
-* Scalability
-* Security
-* Performance
-* Monitoring
-
----
-
-# ☁️ Azure Architecture
-
-I'm interested in designing cloud architectures that can scale with business growth.
-
-```text
-                    Azure Front Door
-                           │
-                           ▼
-                    Azure App Service
-                           │
-                           ▼
-                     .NET 10 API
-                           │
-              ┌────────────┼────────────┐
-              │            │            │
-              ▼            ▼            ▼
-          Azure SQL      Redis        Blob
-              │
-              ▼
-        Tenant Databases
-```
-
-Areas I'm exploring:
-
-* Azure App Service
-* Azure SQL
-* Elastic Pools
-* Redis caching
-* Blob Storage
-* Front Door
-* Application Insights
-* Azure DevOps
-* CI/CD
-* Infrastructure scalability
-* Cost optimization
-
----
-
-# 🤖 AI & Modern Development
-
-I'm also exploring how AI can improve modern SaaS applications.
-
-Areas of interest:
-
-* Azure OpenAI
-* AI-powered SaaS features
-* AI content generation
-* AI-assisted development
-* AI Theme Builders
-* AI-powered recommendations
-* Developer productivity
-* Intelligent automation
-
----
-
-# 📚 What I'm Currently Learning
-
-```text
-Application Architecture
-        ↓
-Cloud Architecture
-        ↓
-Scalable SaaS
-        ↓
-Performance Engineering
-        ↓
-AI Integration
-        ↓
-Solution Architecture
-```
-
-Current areas of focus:
-
-* Advanced .NET architecture
-* Azure architecture
-* High-scale SaaS systems
-* Database scalability
-* Distributed caching
-* Performance optimization
-* Security
-* Observability
-* CI/CD
-* AI integration
-* Architecture Decision Records
-
----
-
-# 🔨 Featured Projects
-
-> 🚧 More projects and architecture examples are being added.
-
-### 🏢 Multi-Tenant SaaS Starter
-
-A production-oriented multi-tenant SaaS reference architecture using:
-
-* .NET
-* Clean Architecture
-* CQRS
-* SQL Server
-* Azure SQL
-* Redis
-* Azure
-* Database-per-Tenant
-
-### 🛒 B2B E-commerce Platform
-
-Reference architecture for a scalable B2B e-commerce platform supporting:
-
-* Multi-tenancy
-* Products
-* Customers
-* Pricing
-* Orders
-* Payments
-* Promotions
-* Tenant administration
-* Storefront
-* ERP integrations
-
-### ☁️ .NET Azure Reference Architecture
-
-Examples covering:
-
-* Azure App Service
-* Azure SQL
-* Redis
-* Blob Storage
-* CI/CD
-* Configuration
-* Logging
-* Monitoring
-* Production deployment
 
 ---
 
@@ -333,25 +619,25 @@ I believe good software should be:
 
 ```text
 Simple
-  ↓
+   ↓
 Maintainable
-  ↓
+   ↓
 Testable
-  ↓
+   ↓
 Secure
-  ↓
+   ↓
 Observable
-  ↓
+   ↓
 Scalable
-  ↓
+   ↓
 Production Ready
 ```
 
 I focus on:
 
-* Clean code
-* SOLID principles
-* Separation of concerns
+* Clean Code
+* SOLID Principles
+* Separation of Concerns
 * Maintainability
 * Performance
 * Security
@@ -359,15 +645,72 @@ I focus on:
 * Testability
 * Observability
 * Automation
+* Reliable Integration
+* Business-driven Architecture
 
 ---
 
+# 📌 Featured Projects
 
+🚧 More architecture and open-source projects are coming soon.
+
+### 🏢 Multi-Tenant SaaS Starter
+
+A reference architecture demonstrating:
+
+* .NET
+* Clean Architecture
+* CQRS
+* Multi-Tenancy
+* Database-per-Tenant
+* SQL Server
+* Azure SQL
+* Redis
+* Authentication
+* Authorization
+* Tenant Management
+* Background Processing
+
+### 🛒 B2B E-commerce Platform
+
+Reference architecture covering:
+
+* Products
+* Customers
+* Pricing
+* Inventory
+* Orders
+* Payments
+* Invoices
+* Promotions
+* Multi-Tenancy
+* Storefront
+* Administration
+* ERP Integration
+
+### 🔗 ERP Integration Framework
+
+A reference implementation demonstrating:
+
+* ERP Adapter Pattern
+* Strategy Pattern
+* Data Mapping
+* Data Transformation
+* Background Processing
+* Retry Handling
+* Idempotency
+* Error Handling
+* Logging
+* Monitoring
+
+
+
+---
 
 # 📫 Connect With Me
 
-* 💼 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/ravindrakumarnot)
-* 🐙 GitHub: [My GitHub Profile](https://github.com/ravikumr070)
+* 💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/ravindrakumarnot)
+* 🐙 GitHub: [GitHub](https://github.com/ravikumr070)
 * 📧 Email: Your professional email
 
 ---
@@ -376,4 +719,4 @@ I focus on:
 
 If you find my projects useful, feel free to **star ⭐ the repositories** or connect with me.
 
-**Keep building. Keep learning. Keep improving. 🚀**
+### 🚀 Build. Integrate. Architect. Scale.
