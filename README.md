@@ -552,7 +552,7 @@ AI-assisted generation of marketing and social media content:
 
 Applying AI to real business processes rather than limiting AI to chatbot experiences.
 
-```text
+```
 Business Data
      │
      ▼
@@ -571,6 +571,8 @@ Business Workflow
      ├── Approval
      ├── Automation
      └── Action
+
+```
 
 ---
 
