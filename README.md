@@ -482,18 +482,95 @@ I'm experienced in designing and deploying applications using Microsoft Azure.
 
 # 🤖 AI & Modern SaaS
 
-I'm exploring how AI can improve modern SaaS and B2B e-commerce platforms.
+I'm building and implementing **AI-powered capabilities for modern SaaS and B2B e-commerce platforms**, using **Azure OpenAI and modern AI technologies** to improve customer experience, business operations, content generation, personalization, and developer productivity.
 
-Areas of interest:
+### 🧠 Azure OpenAI
 
-* Azure OpenAI
+* Azure OpenAI integration
 * AI-powered SaaS features
-* AI Theme Builder
-* AI-generated marketing content
-* AI-powered recommendations
-* Automated social media content
-* Intelligent business workflows
-* AI-assisted development
+* Prompt engineering
+* Structured AI responses
+* AI-powered business workflows
+* AI-assisted content generation
+* AI integration with existing SaaS applications
+* Tenant-aware AI capabilities
+* AI usage and cost management
+
+### 🎨 AI Theme Builder
+
+Building AI-assisted capabilities for modern B2B e-commerce storefronts:
+
+* AI-generated storefront layouts
+* AI-generated themes
+* UI and component generation
+* Theme customization
+* Content generation
+* Storefront personalization
+* Tenant-specific theme configuration
+* AI-assisted e-commerce experience
+
+### ✍️ AI-Generated Marketing Content
+
+Using AI to automate content creation for SaaS and e-commerce platforms:
+
+* Product descriptions
+* Product highlights
+* Marketing copy
+* SEO content
+* Meta titles and descriptions
+* Category descriptions
+* Promotional content
+* Campaign content
+* Customer-facing content
+
+### 🛍️ AI-Powered Recommendations
+
+Using business and e-commerce data to provide intelligent recommendations:
+
+* Product recommendations
+* Related products
+* Frequently purchased products
+* Cross-sell recommendations
+* Upsell opportunities
+* Customer-specific recommendations
+* Personalized B2B experiences
+* Product discovery
+
+### 📱 Automated Social Media Content
+
+AI-assisted generation of marketing and social media content:
+
+* Product promotion posts
+* Social media captions
+* Campaign content
+* Promotional messaging
+* Product announcements
+* Marketing ideas
+* Content variations
+
+### ⚙️ Intelligent Business Workflows
+
+Applying AI to real business processes rather than limiting AI to chatbot experiences.
+
+```text
+Business Data
+     │
+     ▼
+ AI Processing
+     │
+     ├── Classification
+     ├── Analysis
+     ├── Recommendation
+     ├── Content Generation
+     └── Decision Support
+     │
+     ▼
+Business Workflow
+     │
+     ├── Notification
+     ├── Approval
+     ├── Automation
+     └── Action
 
 ---
 
@@ -711,7 +788,6 @@ A reference implementation demonstrating:
 
 * 💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/ravindrakumarnot)
 * 🐙 GitHub: [GitHub](https://github.com/ravikumr070)
-* 📧 Email: Your professional email
 
 ---
 
